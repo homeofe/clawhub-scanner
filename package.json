@@ -13,7 +13,13 @@
     "test:watch": "vitest",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["openclaw", "clawhub", "security", "scanner", "malware"],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "security",
+    "scanner",
+    "malware"
+  ],
   "author": "Elvatis <info@elvatis.com>",
   "license": "MIT",
   "repository": {
@@ -29,8 +35,8 @@
     "glob": "^11.0.0"
   },
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "typescript": "^5.6.0",
-    "vitest": "^2.1.0",
-    "@types/node": "^22.0.0"
+    "vitest": "^4.0.18"
   }
 }
