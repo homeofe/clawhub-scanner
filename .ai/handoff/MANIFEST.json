@@ -23,15 +23,46 @@
       "depends_on": [],
       "priority": "high",
       "completed": "2026-02-27T14:10:29.851Z"
+    },
+    "T-004": {
+      "title": "Add allowlist for common false positives",
+      "status": "done",
+      "priority": "medium",
+      "depends_on": [],
+      "created": "2026-02-28T18:15:08.001Z",
+      "completed": "2026-02-28T18:18:00.000Z",
+      "notes": "Already implemented in T-003. Verified: allowlist.ts, allowlist.test.ts (20 tests), CLI --allowlist flag, skill-local + global config, glob patterns all working.",
+      "github_issue": 3,
+      "github_repo": "elvatis/clawhub-scanner"
+    },
+    "T-005": {
+      "title": "Expand indicators list and rule tuning",
+      "status": "ready",
+      "priority": "medium",
+      "depends_on": [],
+      "created": "2026-02-28T18:15:08.001Z",
+      "notes": "Expand the IoC indicators list and tune detection rules to reduce false positives.\n\n**From AAHP NEXT_ACTIONS**",
+      "github_issue": 2,
+      "github_repo": "elvatis/clawhub-scanner"
+    },
+    "T-006": {
+      "title": "Add CI workflow (lint/test) and release checklist",
+      "status": "ready",
+      "priority": "medium",
+      "depends_on": [],
+      "created": "2026-02-28T18:15:08.001Z",
+      "notes": "Set up GitHub Actions CI with lint and test steps. Add release checklist.\n\n**From AAHP NEXT_ACTIONS**",
+      "github_issue": 1,
+      "github_repo": "elvatis/clawhub-scanner"
     }
   },
   "last_session": {
     "agent": "claude-code",
     "duration_minutes": 2,
-    "session_id": "t001-ci-workflow",
+    "session_id": "t004-allowlist-verify",
     "phase": "implementation",
     "commit": "",
-    "timestamp": "2026-02-27T14:10:29.851Z"
+    "timestamp": "2026-02-28T18:18:00.000Z"
   },
   "token_budget": {
     "manifest_only": 100,
@@ -39,15 +70,15 @@
     "manifest_plus_core": 400
   },
   "aahp_version": "3.0",
-  "next_task_id": 4,
+  "next_task_id": 7,
   "files": {
     "NEXT_ACTIONS.md": {
-      "updated": "2026-02-28T00:00:00Z",
-      "lines": 10,
-      "checksum": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-      "summary": "3 ready items: CI workflow, IoC indicators, allowlist"
+      "updated": "2026-02-28T18:18:00.000Z",
+      "lines": 56,
+      "checksum": "sha256:pending",
+      "summary": "2 ready items: T-005 (IoC expansion), T-006 (CI workflow). 4 done."
     }
   },
-  "quick_context": "clawhub-scanner MVP complete. All tasks done: T-001 (CI + release checklist), T-002 (IoC expansion + 14 new rules), T-003 (allowlist). Ready for v0.1.0 publish.",
+  "quick_context": "clawhub-scanner MVP complete. T-001 through T-004 done. T-005 (IoC expansion), T-006 (CI workflow) ready. Allowlist feature verified: 20 tests, full CLI integration.",
   "project": "clawhub-scanner"
 }
