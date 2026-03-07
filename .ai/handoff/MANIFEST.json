@@ -101,6 +101,16 @@
       "created": "2026-03-02T03:44:58.470Z",
       "github_issue": 8,
       "github_repo": "elvatis/clawhub-scanner"
+    },
+    "T-012": {
+      "title": "[CI] Failed run 22493421515 — npm publish E403: cannot publish same version",
+      "status": "ready",
+      "priority": "medium",
+      "depends_on": [],
+      "created": "2026-03-07T06:58:22.604Z",
+      "notes": "Automated CI triage created by Akido.\n\nRepository: elvatis/clawhub-scanner\nFailed run: 22493421515\nRun URL: https://github.com/elvatis/clawhub-scanner/actions/runs/22493421515\n\nSummary:\nnpm publish E403: cannot publish same version\n\nRelevant log excerpts:\n- See the Actions run for full logs: https://github.com/elvatis/clawhub-scanner/actions/runs/22493421515\n\nSuggested next steps:\n- Reproduce locally: run the CI steps (install deps, tsc, lint, tests).\n- Apply the suggested fix from the automated",
+      "github_issue": 9,
+      "github_repo": "elvatis/clawhub-scanner"
     }
   },
   "last_session": {
@@ -117,7 +127,7 @@
     "manifest_plus_core": 400
   },
   "aahp_version": "3.0",
-  "next_task_id": 12,
+  "next_task_id": 13,
   "files": {
     "NEXT_ACTIONS.md": {
       "updated": "2026-02-28T19:30:00.000Z",
