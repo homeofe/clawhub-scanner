@@ -41,7 +41,7 @@
     "url": "https://github.com/elvatis/clawhub-scanner"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "dependencies": {
     "chalk": "^5.3.0",
